@@ -13,3 +13,8 @@ def double_list(arr):
 
 list_1 = list(map(int, input("Введите числа через пробел:\n").split()))
 double_list(list_1)
+
+#arr = [2, 3, 4, 5, 6]
+#for i in range((len(arr) + 1) // 2):
+#x = arr[i] * arr[len(arr) - i - 1]
+#print(x)
