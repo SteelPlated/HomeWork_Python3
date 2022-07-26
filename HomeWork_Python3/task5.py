@@ -19,3 +19,22 @@ else:
         arr[i]=arr[i+2]-arr[i+1]
         i=i-1
     print(arr)
+    
+'''k = int(input())
+a0 = 0
+a1 = 1
+a2 = 1
+arr = []
+for i in range(k):
+arr.append(a0)
+a2 = a1 + a0
+a0 = a1
+a1 = a2
+arr.append(a0)
+arr1 = list()
+for i in range(len(arr)):
+if i % 2 == 0:
+arr1.append(arr[i] * (-1))
+else:
+arr1.append(arr[i])
+print(arr1[len(arr):1:-1] + arr)'''
