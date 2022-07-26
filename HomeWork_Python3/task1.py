@@ -15,3 +15,9 @@ def SearchList(arr):
 
 list_1 = list(map(int, input("Введите числа через пробел:\n").split()))
 SearchList(list_1)
+
+#arr = [2, 3, 5, 9, 3, 5, 10]
+#sum = 0
+#for i in range(1, len(arr), 2):
+#sum = sum + arr[i]
+#print(sum)
