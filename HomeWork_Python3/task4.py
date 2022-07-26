@@ -13,3 +13,10 @@ while n != 0:
     a = str(n%2) + a
     n //=2
 print(a)
+
+#s = ''
+#n = int(input())
+#while n > 0:
+#s = s + str(n % 2)
+#n //= 2
+#print(s[::-1])
